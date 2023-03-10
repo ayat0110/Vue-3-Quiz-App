@@ -1,3 +1,6 @@
+<script setup>
+import Question from "../components/Question.vue"
+</script>
 <template>
     <div>
         <header>
@@ -7,21 +10,7 @@
             </div>
         </header>
         <div>
-            <div class="question-container">
-              <h1 class="question">
-                What is the chemical value of table salt?
-              </h1>  
-            </div>
-            <div class="options-container">
-                <div class="option">
-                    <p class="option-label">A
-                    </p>
-                    <div class="option-value">
-                        <p>NaCl</p>
-                    </div>
-                </div>
-
-            </div>
+           <Question />
         </div>
     </div>
 </template>
@@ -35,32 +24,13 @@ header h4{
 .bar{
     width:300px;
     height:50px;
-    border:3px solid #aa7bc3;
+    border:3px solid #afb1ff;
     border-radius: 2em;
 }
 .completion{
     height:100%;
     width:0%;
-    background-color: #aa7bc3;
+    background-color: #afb1ff;
 }
-.question-container{
-    margin-top:20px;
-}
-.question{
-    font-size:40px;
-    margin-bottom:20px;
-}
-.option{
-    display:flex;
-    margin-bottom:20px;
-    cursor:pointer;
-}
-.option-label{
-    background-color:bisque;
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-}
+
 </style>
