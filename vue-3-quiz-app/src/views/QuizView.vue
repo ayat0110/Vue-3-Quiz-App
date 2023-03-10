@@ -46,4 +46,8 @@ header h4{
 .question-container{
     margin-top:20px;
 }
+.question{
+    font-size:40px;
+    margin-bottom:20px;
+}
 </style>
