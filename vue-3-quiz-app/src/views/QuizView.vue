@@ -8,10 +8,12 @@ const route= useRoute()
 const quiz= quizes.find(q => q.id === quizId)
 const quizId= parseInt(route.params.id)
 const currentQuestionIndex = ref(0);
+const questionStatus=`${currentQuestionIndex.value}/${quiz.questions.length}`
 </script>
 <template>
     <div>
-        <QuizHeader />
+        <QuizHeader 
+        :questionStatus="questionStatus"/>
         <div>
            <Question :question="quiz.questions[currentQuestionIndex]"/>
         </div>
