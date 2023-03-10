@@ -7,13 +7,13 @@ import quizes from "../data/quizes.json"
 const route= useRoute()
 const quiz= quizes.find(q => q.id === quizId)
 const quizId= parseInt(route.params.id)
-const currentQuestionInex = ref(0);
+const currentQuestionIndex = ref(0);
 </script>
 <template>
     <div>
         <QuizHeader />
         <div>
-           <Question />
+           <Question :question="quiz.questions[currentQuestionIndex]"/>
         </div>
     </div>
 </template>

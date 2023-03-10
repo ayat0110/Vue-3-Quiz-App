@@ -1,7 +1,11 @@
+<script setup>
+import {defineProps} from "vue"
+const {question} = defineProps(['question'])
+</script>
 <template>
      <div class="question-container">
               <h1 class="question">
-                What is the chemical value of table salt?
+                {{question.text}}
               </h1>  
             </div>
             <div class="options-container">
