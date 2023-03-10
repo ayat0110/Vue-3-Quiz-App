@@ -51,7 +51,8 @@ header input{
   box-shadow:1px 1px 10px rgba(0,0,0,0.1);
   margin-bottom:35px ;
   margin-right: 20px;
-  cursor:pointer
+  cursor:pointer;
+  padding: 2em;
 }
 
 .card img{
