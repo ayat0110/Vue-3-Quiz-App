@@ -42,7 +42,7 @@ header{
 
 }
 header h1{
-  font-weight: bold;
+  color: #592e83;
   margin-right:30px;
 }
 header input{
@@ -50,6 +50,7 @@ header input{
   background-color: rgba(128,128,128,0.1);
   padding: 10px;
   border-radius:5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
 .options-container{
@@ -61,7 +62,7 @@ header input{
   width: 310px;
   overflow: hidden;
   border-radius:2%;
-  box-shadow:1px 1px 10px rgba(0,0,0,0.1);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom:35px ;
   margin-right: 20px;
   cursor:pointer;
