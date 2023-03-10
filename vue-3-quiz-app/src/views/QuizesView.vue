@@ -13,7 +13,7 @@ watch(search, () =>{
 </script>
 
 <template >
-  <div class="container">
+  <div>
     <header>
       <h1>Quizes</h1>
       <input v-model.trim="search" type="text" placeholder="Search..">
