@@ -66,6 +66,8 @@ header input{
   margin-right: 20px;
   cursor:pointer;
   padding: 2em;
+  background-color: #f6e5ff;
+ color: #9984d4;
 }
 
 .card img{
@@ -78,6 +80,7 @@ header input{
   padding:0 5px;
 }
 .card .card-text h2{
-  font-weight: bold;;
+  font-weight: bold;
+  border-bottom: 0.5px solid gray;
 }
 </style>
