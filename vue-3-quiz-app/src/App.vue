@@ -1,3 +1,10 @@
+<script setup>
+import q from "./data/quizes"
+import {ref} from "vue"
+
+const quizes= ref(q)
+</script>
+
 <template >
   <div class="container">
     <header>
@@ -5,11 +12,11 @@
       <input type="text" placeholder="Search..">
     </header>
     <div class="options-container">
-     <div class="card">
-      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/mathematics-5135139-4298233.png" alt="">
+     <div v-for="quiz in quizes" :key="quiz.id" class="card">
+      <img :src="quiz.img" alt="">
       <div class="card-text">
-        <h2>Math</h2>
-        <p>15 questions</p>
+        <h2>{{quiz.name}}</h2>
+        <p>{{quiz.questions.length}} questions</p>
       </div>
      </div>
     </div>
