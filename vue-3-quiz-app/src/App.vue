@@ -1,15 +1,20 @@
 <script setup>
 import q from "./data/quizes"
-import {ref} from "vue"
+import {ref, watch} from "vue"
 
 const quizes= ref(q)
+const search= ref("")
+
+watch(search, () =>{
+
+})
 </script>
 
 <template >
   <div class="container">
     <header>
       <h1>Quizes</h1>
-      <input type="text" placeholder="Search..">
+      <input v-model.trim="search" type="text" placeholder="Search..">
     </header>
     <div class="options-container">
      <div v-for="quiz in quizes" :key="quiz.id" class="card">
@@ -66,6 +71,7 @@ header input{
  width:100%;
   height:190px;
   margin:0;
+  border-radius:15px;
 }
 .card .card-text{
   padding:0 5px;
