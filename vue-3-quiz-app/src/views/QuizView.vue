@@ -50,4 +50,17 @@ header h4{
     font-size:40px;
     margin-bottom:20px;
 }
+.option{
+    display:flex;
+    margin-bottom:20px;
+    cursor:pointer;
+}
+.option-label{
+    background-color:bisque;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
 </style>
