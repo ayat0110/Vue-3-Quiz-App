@@ -39,6 +39,11 @@ header input{
   border-radius:5px;
 
 }
+.options-container{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top:40px;
+}
 .card{
   width: 310px;
   overflow: hidden;
