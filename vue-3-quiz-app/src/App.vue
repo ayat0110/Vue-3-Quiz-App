@@ -6,7 +6,7 @@
     </header>
     <div class="options-container">
      <div class="card">
-      <img src="" alt="">
+      <img src="https://cdn3d.iconscout.com/3d/premium/thumb/mathematics-5135139-4298233.png" alt="">
       <div class="card-text">
         <h2>Math</h2>
         <p>15 questions</p>
@@ -37,5 +37,14 @@ header input{
   padding: 10px;
   border-radius:5px;
 
+}
+.card{
+  width: 310px;
+  overflow: hidden;
+  border-radius:2%;
+  box-shadow:1px 1px 10px rgba(0,0,0,0,1);
+  margin-bottom:35px ;
+  margin-right: 20px;
+  cursor:pointer
 }
 </style>
