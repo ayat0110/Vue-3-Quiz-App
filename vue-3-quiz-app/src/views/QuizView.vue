@@ -23,6 +23,9 @@ const onOptionSelected=(isCorrect)=>{
      if(isCorrect){
         numberOfCorrectAnswers.value++;
      }
+     if(quiz.questions.length -1 === currentQuestionIndex.value){
+        showResults.value=true
+     }
      currentQuestionIndex.value++
 }
 const barPercentage =computed(()=>`${currentQuestionIndex.value/quiz.questions.length * 100}`)
