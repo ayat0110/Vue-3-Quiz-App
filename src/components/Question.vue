@@ -28,8 +28,11 @@ const emitSelectOption=(isCorrect)=>{
     margin-top:20px;
 }
 .question{
-    font-size:40px;
-    margin-bottom:20px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #c1c1c1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .option{
     display:flex;
@@ -37,14 +40,16 @@ const emitSelectOption=(isCorrect)=>{
     cursor:pointer;
 }
 .option-label{
-    background-color:#afb1ff;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: #afb1ff;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
 }
+
 .option-value{
     background-color:rgb(244, 239, 239);
     width: 100%;

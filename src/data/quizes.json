@@ -276,5 +276,284 @@
                 ]
             }
         ]
-    }
+    },
+     {
+         "id": 4,
+         "img": "https://cdn3d.iconscout.com/3d/premium/thumb/atom-5831860-4884523.png",
+         "name": "Physics",
+         "questions": [{
+                 "id": 1,
+                 "text": "What is the composition of table salt",
+                 "options": [{
+                         "id": 1,
+                         "label": "A",
+                         "text": "NaCl",
+                         "isCorrect": true
+                     },
+                     {
+                         "id": 2,
+                         "label": "B",
+                         "text": "K2",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 3,
+                         "label": "C",
+                         "text": "NaCl2C4H7",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 4,
+                         "label": "D",
+                         "text": "CH4",
+                         "isCorrect": false
+                     }
+                 ]
+             },
+             {
+                 "id": 2,
+                 "text": "What is Potassium's chemical symbol",
+                 "options": [{
+                         "id": 1,
+                         "label": "A",
+                         "text": "P",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 2,
+                         "label": "B",
+                         "text": "Pt",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 3,
+                         "label": "C",
+                         "text": "Pts",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 4,
+                         "label": "D",
+                         "text": "K",
+                         "isCorrect": true
+                     }
+                 ]
+             },
+             {
+                 "id": 3,
+                 "text": "Which is not organinc",
+                 "options": [{
+                         "id": 1,
+                         "label": "A",
+                         "text": "CH4",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 2,
+                         "label": "B",
+                         "text": "NaCl",
+                         "isCorrect": true
+                     },
+                     {
+                         "id": 3,
+                         "label": "C",
+                         "text": "C2H6",
+                         "isCorrect": false
+                     },
+                     {
+                         "id": 4,
+                         "label": "D",
+                         "text": "C3H8",
+                         "isCorrect": false
+                     }
+                 ]
+             }
+         ]
+     },
+      {
+          "id": 5,
+          "img": "https://i.pinimg.com/564x/61/69/c3/6169c3608571d66b73e392eb7463a736.jpg",
+          "name": "Geography",
+          "questions": [{
+                  "id": 1,
+                  "text": "What is the composition of table salt",
+                  "options": [{
+                          "id": 1,
+                          "label": "A",
+                          "text": "NaCl",
+                          "isCorrect": true
+                      },
+                      {
+                          "id": 2,
+                          "label": "B",
+                          "text": "K2",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 3,
+                          "label": "C",
+                          "text": "NaCl2C4H7",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 4,
+                          "label": "D",
+                          "text": "CH4",
+                          "isCorrect": false
+                      }
+                  ]
+              },
+              {
+                  "id": 2,
+                  "text": "What is Potassium's chemical symbol",
+                  "options": [{
+                          "id": 1,
+                          "label": "A",
+                          "text": "P",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 2,
+                          "label": "B",
+                          "text": "Pt",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 3,
+                          "label": "C",
+                          "text": "Pts",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 4,
+                          "label": "D",
+                          "text": "K",
+                          "isCorrect": true
+                      }
+                  ]
+              },
+              {
+                  "id": 3,
+                  "text": "Which is not organinc",
+                  "options": [{
+                          "id": 1,
+                          "label": "A",
+                          "text": "CH4",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 2,
+                          "label": "B",
+                          "text": "NaCl",
+                          "isCorrect": true
+                      },
+                      {
+                          "id": 3,
+                          "label": "C",
+                          "text": "C2H6",
+                          "isCorrect": false
+                      },
+                      {
+                          "id": 4,
+                          "label": "D",
+                          "text": "C3H8",
+                          "isCorrect": false
+                      }
+                  ]
+              }
+          ]
+      },
+       {
+           "id": 6,
+           "img": "https://i.pinimg.com/originals/73/ee/57/73ee57e814a98dfbfe806787e2da80e9.gif",
+           "name": "History",
+           "questions": [{
+                   "id": 1,
+                   "text": "What is the composition of table salt",
+                   "options": [{
+                           "id": 1,
+                           "label": "A",
+                           "text": "NaCl",
+                           "isCorrect": true
+                       },
+                       {
+                           "id": 2,
+                           "label": "B",
+                           "text": "K2",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 3,
+                           "label": "C",
+                           "text": "NaCl2C4H7",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 4,
+                           "label": "D",
+                           "text": "CH4",
+                           "isCorrect": false
+                       }
+                   ]
+               },
+               {
+                   "id": 2,
+                   "text": "What is Potassium's chemical symbol",
+                   "options": [{
+                           "id": 1,
+                           "label": "A",
+                           "text": "P",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 2,
+                           "label": "B",
+                           "text": "Pt",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 3,
+                           "label": "C",
+                           "text": "Pts",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 4,
+                           "label": "D",
+                           "text": "K",
+                           "isCorrect": true
+                       }
+                   ]
+               },
+               {
+                   "id": 3,
+                   "text": "Which is not organinc",
+                   "options": [{
+                           "id": 1,
+                           "label": "A",
+                           "text": "CH4",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 2,
+                           "label": "B",
+                           "text": "NaCl",
+                           "isCorrect": true
+                       },
+                       {
+                           "id": 3,
+                           "label": "C",
+                           "text": "C2H6",
+                           "isCorrect": false
+                       },
+                       {
+                           "id": 4,
+                           "label": "D",
+                           "text": "C3H8",
+                           "isCorrect": false
+                       }
+                   ]
+               }
+           ]
+       }
 ]

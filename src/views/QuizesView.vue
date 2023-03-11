@@ -16,7 +16,7 @@ watch(search, () =>{
 <template >
   <div>
     <header>
-      <h1>Quizes</h1>
+      <h1>Fun Quizes</h1>
       <input v-model.trim="search" type="text" placeholder="Search..">
     </header>
     <div class="options-container">
@@ -26,6 +26,8 @@ watch(search, () =>{
 </template>
 <style scoped>
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 
 header{
   margin-bottom:10px;
@@ -37,13 +39,16 @@ header{
 header h1{
   color: #592e83;
   margin-right:30px;
+  font-family: 'Rubik Iso', cursive;
 }
 header input{
-  border:none;
-  background-color: rgba(128,128,128,0.1);
-  padding: 10px;
-  border-radius:5px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+background-color: rgb(215, 209, 253);
+padding: 10px;
+border-radius: 5px;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+width: 300px;
+height: 40px;
 
 }
 .options-container{
