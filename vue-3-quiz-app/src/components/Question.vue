@@ -1,11 +1,11 @@
 <script setup>
-import {defineProps,defineEmits} from "vue"
 const emit = defineEmits(["selectOption"])
 const {question} = defineProps(['question'])
 const emitSelectOption=(isCorrect)=>{
     emit("selectOption",isCorrect)
 }
 </script>
+
 <template>
      <div class="question-container">
               <h1 class="question">

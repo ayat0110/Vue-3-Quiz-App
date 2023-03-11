@@ -1,6 +1,7 @@
 <script setup>
 import Card from "../components/Card.vue"
 import q from "../data/quizes"
+
 import {ref, watch} from "vue"
 
 const quizes= ref(q)

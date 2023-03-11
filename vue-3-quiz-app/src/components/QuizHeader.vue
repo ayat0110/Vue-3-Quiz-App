@@ -1,5 +1,4 @@
 <script setup>
-import {defineProps} from "vue"
 const {questionStatus,barPercentage}=defineProps(["questionStatus","barPercentage"])
 </script>
 <template >
@@ -27,6 +26,7 @@ header h4{
     height:100%;
     width:0%;
     background-color: #afb1ff;
+    border-radius: 2em;
 }
 
 </style>

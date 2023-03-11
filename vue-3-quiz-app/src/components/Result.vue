@@ -1,13 +1,15 @@
 <script setup>
-import {defineProps} from "vue"
-const {quizQuestionLength,numberOfCorrectAnswer}=defineProps("quizQuestionLength","numberOfCorrectAnswer")
+const {numberOfCorrectAnswers,quizQuestionLength}=defineProps(["quizQuestionLength","numberOfCorrectAnswers"])
+
 </script>
+
 <template>
     <div class="results">
         <p>Your results...</p>
         <h1>
-            {{numberOfCorrectAnswer}}/{{ quizQuestionLength }}
+            {{numberOfCorrectAnswers}}/{{ quizQuestionLength }}
         </h1>
+        <RouterLink to="/">Go Back</RouterLink>
     </div>
 </template>
 <style scoped>
