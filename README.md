@@ -11,7 +11,7 @@ To get started, clone the repository and run the app on your local machine. You 
 
 
 ## Technologies
-* Vue js 3 composiiton api
+* Vue js 3 composition api
 * Dynamic vue router
 * Es6 javascript practices
 ## Demo
