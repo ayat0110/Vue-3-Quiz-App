@@ -4,7 +4,6 @@ const emit = defineEmits(["selectOption"])
 const {question} = defineProps(['question'])
 const emitSelectOption=(isCorrect)=>{
     emit("selectOption",isCorrect)
-
 }
 </script>
 <template>

@@ -24,7 +24,8 @@ const barPercentage =computed(()=>`${currentQuestionIndex.value/quiz.questions.l
         :questionStatus="questionStatus"
         :barPercentage="barPercentage"/>
         <div>
-           <Question :question="quiz.questions[currentQuestionIndex]"/>
+           <Question :question="quiz.questions[currentQuestionIndex]"
+           @selectOption="onOptionSelected"/>
         </div>
         <button @click="currentQuestionIndex++">Next Question</button>
     </div>
