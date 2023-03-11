@@ -16,7 +16,8 @@ To get started, clone the repository and run the app on your local machine. You 
 * Es6 javascript practices
 ## Demo
 
-Insert gif or link to demo
+https://fun-quizes.netlify.app/
+![quiz-app](https://user-images.githubusercontent.com/76471156/224491174-caca5297-ee0e-4cd9-b543-69b17d7b9bca.jpg)
 
 
 ## Documentation
