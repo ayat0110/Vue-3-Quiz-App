@@ -38,7 +38,7 @@ const barPercentage =computed(()=>`${currentQuestionIndex.value/quiz.questions.l
         <div>
            <Question  v-if="!showResults" :question="quiz.questions[currentQuestionIndex]"
            @selectOption="onOptionSelected"/>
-           <Result  v-else />
+           <Result  v-else :quizQuestionLength="quiz.questions.length" :numberOfCorrectAnswer="numberOfCorrectAnswer"/>
         </div>
     </div>
 </template>
